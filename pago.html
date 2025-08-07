@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pago - La Sabrosita</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🍔 La Sabrosita</div>
+    <input type="checkbox" id="toggle-menu" />
+    <label for="toggle-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="registro.html">Registro</a></li>
+      <li><a href="menu.html">Menú</a></li>
+      <li><a href="estado.html">Estado</a></li>
+      <li><a href="inventario.html">Inventario</a></li>
+    </ul>
+  </nav>
+
+  <section class="pago-container">
+    <h1>Elige tu método de pago</h1>
+    <form>
+      <div class="opcion">
+        <input type="radio" id="sinpe" name="metodo" checked>
+        <label for="sinpe">SINPE Móvil</label>
+      </div>
+      <div class="opcion">
+        <input type="radio" id="efectivo" name="metodo">
+        <label for="efectivo">Pago en Efectivo</label>
+      </div>
+      <button type="submit">Confirmar Pago</button>
+    </form>
+  </section>
+</body>
+</html>
