@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contabilidad - La Sabrosita</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  
+<nav class="navbar">
+  <div class="logo">🍔 La Sabrosita</div>
+  <input type="checkbox" id="toggle-menu" />
+  <label for="toggle-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
+  <ul class="nav-links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="registro.html">Registro</a></li>
+    <li><a href="menu.html">Menú</a></li>
+    <li><a href="estado.html">Estado</a></li>
+    <li><a href="pago.html">Pago</a></li>
+    <li><a href="reportes.html">Reportes</a></li>
+    <li><a href="contabilidad.html">Contabilidad</a></li>
+  </ul>
+</nav>
+
+  <main class="admin">
+    <h2>Contabilidad</h2>
+    <button onclick="alert('Mostrando cierres de caja')">Ver cierres de caja</button>
+    <table>
+      <thead>
+        <tr>
+          <th>Método de pago</th>
+          <th>División de cuentas</th>
+          <th>Propina</th>
+          <th>Fecha</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><input type="text" value="Tarjeta de crédito"></td><td><input type="text" value="GI division"></td><td><input type="number" value="5.00"></td><td><input type="date" value="2024-04-01"></td></tr>
+        <tr><td><input type="text" value="Efectivo"></td><td><input type="text" value="No division"></td><td><input type="number" value="0.00"></td><td><input type="date" value="2024-04-01"></td></tr>
+        <tr><td><input type="text" value="Tarjeta de crédito"></td><td><input type="text" value="St division"></td><td><input type="number" value="3.00"></td><td><input type="date" value="2024-03-30"></td></tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
